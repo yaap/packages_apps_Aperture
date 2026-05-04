@@ -130,6 +130,11 @@ class OverlaysRepository(private val context: Context) {
      */
     val enableHighResolution = getBoolean(R.bool.config_enableHighResolution)
 
+    /**
+     * @see R.bool.enable_oplus_video_stabilization
+     */
+    val enableOplusVideoStabilization = getBoolean(R.bool.enable_oplus_video_stabilization)
+
     private fun getBoolean(id: Int) = rroResources.firstNotNullOfOrNull {
         runCatching {
             it.getBoolean(id)

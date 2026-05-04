@@ -19,6 +19,11 @@ import org.lineageos.aperture.models.NoiseReductionMode
 import org.lineageos.aperture.models.ShadingMode
 import org.lineageos.aperture.models.VideoStabilizationMode
 
+// Oplus-specific capture request keys
+val KEY_oplus_SUPER_STEADY_ENABLE = CaptureRequest.Key<Int>(
+    "com.oplus.eis.supersteady.enable", Int::class.java
+)
+
 @androidx.camera.camera2.interop.ExperimentalCamera2Interop
 fun <ValueT> CaptureRequestOptions.Builder.setOrClearCaptureRequestOption(
     key: CaptureRequest.Key<ValueT>,
@@ -53,6 +58,13 @@ fun CaptureRequestOptions.Builder.setVideoStabilizationMode(
         null -> null
     }
 )
+
+@androidx.camera.camera2.interop.ExperimentalCamera2Interop
+fun CaptureRequestOptions.Builder.setSuperSteadyEnabled(enabled: Boolean?) =
+    setOrClearCaptureRequestOption(
+        KEY_oplus_SUPER_STEADY_ENABLE,
+        if (enabled == true) 1 else null
+    )
 
 @androidx.camera.camera2.interop.ExperimentalCamera2Interop
 fun CaptureRequestOptions.Builder.setEdgeMode(
