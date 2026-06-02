@@ -116,7 +116,7 @@ class CameraRepository(
         val camera2CameraInfo = Camera2CameraInfo.from(this)
 
         return when (camera2CameraInfo.cameraId) {
-            in mainCameraIds -> true
+            in mainCameraIds -> camera2CameraInfo.cameraId !in overlaysRepository.ignoredAuxCameraIds
 
             else -> {
                 val isIgnoredAuxCamera = overlaysRepository.ignoredAuxCameraIds.contains(
@@ -146,7 +146,7 @@ class CameraRepository(
 
     companion object {
         /**
-         * List of main camera IDs. These should never be excluded.
+         * List of main camera IDs. These can also be excluded via config_ignoredAuxCameraIds.
          */
         private val mainCameraIds = setOf(
             "0",
