@@ -69,13 +69,6 @@ class IslandView @JvmOverloads constructor(
                             false -> R.drawable.ic_battery_1_bar
                         }
 
-                        is IslandItem.PhotoJpegUltraHdr -> R.drawable.ic_hdr_on
-
-                        is IslandItem.PhotoRawEnabled -> when (item.withJpeg) {
-                            true -> R.drawable.ic_image_add_raw_on
-                            false -> R.drawable.ic_raw_on
-                        }
-
                         is IslandItem.VideoMicMuted -> R.drawable.ic_mic_off
                     }
                 )

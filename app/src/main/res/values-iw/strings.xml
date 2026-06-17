@@ -99,12 +99,6 @@
     <string name="photo_capture_mode_minimize_latency">מיזעור שיהוי</string>
     <string name="enable_zsl_title">הפעלת ZSL כאשר זמין</string>
     <string name="enable_zsl_summary">שימוש במצב Zero-Shutter Lag כאשר ההתקן תומך בכך. במצב זה אפקטים של תמונה מבוטלים. לתשמת ליבך: מצב זה נמצא כרגע בשלב ניסיוני.</string>
-    <string name="use_photo_jpeg_ultra_hdr_title">שמירת תמונות כ‑JPEG Ultra HDR</string>
-    <string name="use_photo_jpeg_ultra_hdr_summary">שמירת תמונות כ‑JPEG Ultra HDR כאשר זמין כדי לשפר תמונות HDR</string>
-    <string name="enable_raw_image_capture_title">הפעלת צילום RAW</string>
-    <string name="enable_raw_image_capture_summary">הפעלת צילום RAW. לא ניתן לשמור תמונות כ‑JPEG Ultra HDR כאשר צילום RAW מופעל</string>
-    <string name="disable_jpeg_with_raw_title">השבתת JPEG יחד עם RAW</string>
-    <string name="disable_jpeg_with_raw_summary">השבתת צילום JPEG כאשר צילום RAW מופעל</string>
     <string name="photo_ffc_mirror_title">היפוך תמונת מצלמה קדמית</string>
     <string name="photo_ffc_mirror_summary">שמירת תמונות מהמצלמה הקדמית כפי שהן מופיעות בתצוגה המקדימה</string>
     <string name="video_stabilization_title">הפעלת ייצוב ווידאו</string>

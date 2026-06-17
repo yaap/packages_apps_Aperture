@@ -98,12 +98,6 @@
     <string name="photo_capture_mode_maximize_quality">Ansawdd gorau</string>
     <string name="photo_capture_mode_minimize_latency">Cuddni lleiaf</string>
     <string name="enable_zsl_title">Galluogi ZSL pan ar gael</string>
-    <string name="use_photo_jpeg_ultra_hdr_title">Cadw delweddau fel JPEG Ultra HDR</string>
-    <string name="use_photo_jpeg_ultra_hdr_summary">Cadw delweddau fel JPEG Ultra HDR pan ar gael i wella delweddau HDR</string>
-    <string name="enable_raw_image_capture_title">Galluogi cipio delwedd RAW</string>
-    <string name="enable_raw_image_capture_summary">Galluogi cipio delwedd RAW. Ni ellir cadw lluniau fel JPEG Ultra HDR tra bod cipio RAW wedi\'i alluogi</string>
-    <string name="disable_jpeg_with_raw_title">Analluogi JPEG gyda RAW</string>
-    <string name="disable_jpeg_with_raw_summary">Analluogi JPEG tra bod cipio delwedd RAW wedi\'i alluogi</string>
     <string name="photo_ffc_mirror_title">Drychu\'r camera blaen</string>
     <string name="photo_ffc_mirror_summary">Cadw lluniau\'r camera blaen fel y maen nhw\'n ymddangos yn y rhagolwg</string>
     <string name="video_stabilization_title">Galluogi sefydlogi fideo</string>

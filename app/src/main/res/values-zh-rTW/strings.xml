@@ -99,12 +99,6 @@
     <string name="photo_capture_mode_minimize_latency">最小延遲</string>
     <string name="enable_zsl_title">啟用 ZSL (可用時)</string>
     <string name="enable_zsl_summary">在相機支援時啟用零快門延遲 (ZSL) 模式，此模式將會停用相片效果。注意，此模式為實驗性功能</string>
-    <string name="use_photo_jpeg_ultra_hdr_title">儲存為 JPEG Ultra HDR</string>
-    <string name="use_photo_jpeg_ultra_hdr_summary">支援時自動儲存為 JPEG Ultra HDR，提升 HDR 畫質</string>
-    <string name="enable_raw_image_capture_title">啟用 RAW 拍攝</string>
-    <string name="enable_raw_image_capture_summary">啟用 RAW 拍攝。開啟 RAW 拍攝時，相片將無法儲存為 JPEG Ultra HDR 格式</string>
-    <string name="disable_jpeg_with_raw_title">停用 JPEG (僅 RAW)</string>
-    <string name="disable_jpeg_with_raw_summary">RAW 拍攝時不儲存 JPEG</string>
     <string name="photo_ffc_mirror_title">鏡像前置鏡頭</string>
     <string name="photo_ffc_mirror_summary">儲存預覽中顯示的前置鏡頭相片</string>
     <string name="video_stabilization_title">啟用影片防震</string>

@@ -98,12 +98,6 @@
     <string name="photo_capture_mode_maximize_quality">Massimiza sa calidade</string>
     <string name="photo_capture_mode_minimize_latency">Minimiza sa latèntzia</string>
     <string name="enable_zsl_title">Abilita ZSL cando a disponimentu</string>
-    <string name="use_photo_jpeg_ultra_hdr_title">Sarva is immàgines comente JPEG Ultra HDR</string>
-    <string name="use_photo_jpeg_ultra_hdr_summary">Sarva is immàgines comente JPEG Ultra HDR cando siat a disponimentu su megioramentu de is immàgines HDR</string>
-    <string name="enable_raw_image_capture_title">Abilita sa catura de immàgines RAW</string>
-    <string name="enable_raw_image_capture_summary">Abilita sa catura de immàgines RAW. Is fotografias non si podent sarvare comente JPEG Ultra HDR cando sa catura RAW est abilitada</string>
-    <string name="disable_jpeg_with_raw_title">Disabilita JPEG cun RAW</string>
-    <string name="disable_jpeg_with_raw_summary">Disabilita JPEG cando sa catura de immàgines RAW est abilitada</string>
     <string name="photo_ffc_mirror_title">Fotocàmera de in antis a isprigu</string>
     <string name="photo_ffc_mirror_summary">Sarva is fotografias de sa fotocamera de in antis comente aparessent in s\'anteprima</string>
     <string name="video_stabilization_title">Ativa s\'istabilizatzione de su vìdeu</string>

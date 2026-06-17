@@ -99,12 +99,6 @@
     <string name="photo_capture_mode_minimize_latency">Minst mogleg seinking</string>
     <string name="enable_zsl_title">Slå på ZSL når det er tilgjengeleg</string>
     <string name="enable_zsl_summary">Bruk Zero-Shutter Lag-modus når kameraet støttar det. I denne modusen vert bileteffektar slått av. Ver merksam på at denne modusen er på prøvestadiet enno</string>
-    <string name="use_photo_jpeg_ultra_hdr_title">Lagra bilete som JPEG Ultra HDR</string>
-    <string name="use_photo_jpeg_ultra_hdr_summary">Lagra bilete som JPEG Ultra HDR når det er mogleg for å betra HDR-bileta</string>
-    <string name="enable_raw_image_capture_title">Slå på RAW-biletopptak</string>
-    <string name="enable_raw_image_capture_summary">Slå på RAW-biletopptak. Bilete kan ikkje lagrast som JPEG Ultra HDR når RAW-opptak er på</string>
-    <string name="disable_jpeg_with_raw_title">Slå av JPEG med RAW</string>
-    <string name="disable_jpeg_with_raw_summary">Slå av JPEG når RAW-biletopptak er på</string>
     <string name="photo_ffc_mirror_title">Speglvend frontkameraet</string>
     <string name="photo_ffc_mirror_summary">Lagra bilete frå frontkameraet slik dei ser ut i førehandsvisinga</string>
     <string name="video_stabilization_title">Slå på videostabilisering</string>

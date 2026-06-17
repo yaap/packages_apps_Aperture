@@ -67,28 +67,6 @@
         <SwitchPreference
             app:defaultValue="true"
             app:iconSpaceReserved="false"
-            app:key="use_photo_jpeg_ultra_hdr"
-            app:summary="@string/use_photo_jpeg_ultra_hdr_summary"
-            app:title="@string/use_photo_jpeg_ultra_hdr_title" />
-
-        <SwitchPreference
-            app:defaultValue="false"
-            app:iconSpaceReserved="false"
-            app:key="enable_raw_image_capture"
-            app:summary="@string/enable_raw_image_capture_summary"
-            app:title="@string/enable_raw_image_capture_title" />
-
-        <SwitchPreference
-            app:defaultValue="false"
-            app:dependency="enable_raw_image_capture"
-            app:iconSpaceReserved="false"
-            app:key="disable_jpeg_with_raw"
-            app:summary="@string/disable_jpeg_with_raw_summary"
-            app:title="@string/disable_jpeg_with_raw_title" />
-
-        <SwitchPreference
-            app:defaultValue="true"
-            app:iconSpaceReserved="false"
             app:key="photo_ffc_mirror"
             app:summary="@string/photo_ffc_mirror_summary"
             app:title="@string/photo_ffc_mirror_title" />

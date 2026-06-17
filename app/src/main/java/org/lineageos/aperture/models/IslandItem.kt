@@ -28,20 +28,6 @@ sealed interface IslandItem : UniqueItem<IslandItem> {
     ) : IslandItem
 
     /**
-     * JPEG Ultra HDR is currently being used. Only shown in photo camera mode.
-     */
-    data object PhotoJpegUltraHdr : IslandItem
-
-    /**
-     * RAW is currently being used. Only shown in photo camera mode.
-     *
-     * @param withJpeg Whether a JPEG image will also be stored on capture
-     */
-    data class PhotoRawEnabled(
-        val withJpeg: Boolean,
-    ) : IslandItem
-
-    /**
      * The video mic is muted. Only shown in video camera mode.
      */
     data object VideoMicMuted : IslandItem

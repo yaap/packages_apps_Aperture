@@ -99,12 +99,6 @@
     <string name="photo_capture_mode_minimize_latency">반응 속도 최대화</string>
     <string name="enable_zsl_title">제로 셔터 랙 모드 사용</string>
     <string name="enable_zsl_summary">기기가 지원하는 경우 제로 셔터 랙 모드를 사용합니다. 이 모드에서는 사진 효과가 비활성화됩니다. 이 모드는 아직 실험 단계입니다.</string>
-    <string name="use_photo_jpeg_ultra_hdr_title">이미지를 JPEG Ultra HDR로 저장</string>
-    <string name="use_photo_jpeg_ultra_hdr_summary">기기가 지원하는 경우 이미지를 JPEG Ultra HDR로 저장하여 HDR 이미지 개선</string>
-    <string name="enable_raw_image_capture_title">RAW 이미지 캡처 사용</string>
-    <string name="enable_raw_image_capture_summary">RAW 이미지 캡처를 사용합니다. 이 옵션이 켜져 있으면 JPEG Ultra HDR을 사용할 수 없습니다.</string>
-    <string name="disable_jpeg_with_raw_title">JPEG와 RAW 동시 사용 안함</string>
-    <string name="disable_jpeg_with_raw_summary">RAW 이미지 캡처 옵션을 사용 중일 때 JPEG 비활성화</string>
     <string name="photo_ffc_mirror_title">전면 카메라 반전</string>
     <string name="photo_ffc_mirror_summary">전면 카메라로 찍은 사진의 좌우를 반전하여 미리보기에 보이는 대로 저장합니다. </string>
     <string name="video_stabilization_title">동영상 떨림 안정화 사용</string>

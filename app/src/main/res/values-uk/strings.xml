@@ -98,12 +98,6 @@
     <string name="photo_capture_mode_minimize_latency">Мінімізувати затримку</string>
     <string name="enable_zsl_title">Увімкнути ZSL, якщо доступно</string>
     <string name="enable_zsl_summary">Використовувати режим Zero-Shutter Lag (без затримки), якщо камера підтримує його. У цьому режимі ефекти фотографій вимкнено. Зауважте, цей режим наразі експериментальний</string>
-    <string name="use_photo_jpeg_ultra_hdr_title">Зберігати зображення як JPEG Ultra HDR</string>
-    <string name="use_photo_jpeg_ultra_hdr_summary">Зберігати зображення як JPEG Ultra HDR, якщо доступно — покращує HDR-зображення</string>
-    <string name="enable_raw_image_capture_title">Увімкнути захоплення RAW зображення</string>
-    <string name="enable_raw_image_capture_summary">Увімкнути захоплення зображення RAW. Фотографії не можна зберігати як JPEG Ultra HDR, коли ввімкнено захоплення RAW</string>
-    <string name="disable_jpeg_with_raw_title">Вимкнути JPEG із RAW</string>
-    <string name="disable_jpeg_with_raw_summary">Вимкнути JPEG, коли ввімкнено захоплення RAW зображення</string>
     <string name="photo_ffc_mirror_title">Дзеркальний режим</string>
     <string name="photo_ffc_mirror_summary">Зберігати фотографії фронтальної камери, як вони виглядають у попередньому перегляді</string>
     <string name="video_stabilization_title">Увімкнути стабілізацію відео</string>
