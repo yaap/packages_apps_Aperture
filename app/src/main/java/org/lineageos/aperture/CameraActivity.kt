@@ -93,6 +93,7 @@ import org.lineageos.aperture.ext.setHotPixelMode
 import org.lineageos.aperture.ext.setNoiseReductionMode
 import org.lineageos.aperture.ext.setPadding
 import org.lineageos.aperture.ext.setShadingMode
+import org.lineageos.aperture.ext.setOplusVideoHdrFix
 import org.lineageos.aperture.ext.setSuperSteadyEnabled
 import org.lineageos.aperture.ext.setVideoStabilizationMode
 import org.lineageos.aperture.ext.slide
@@ -1644,6 +1645,11 @@ open class CameraActivity : AppCompatActivity(R.layout.activity_camera) {
                 .setSuperSteadyEnabled(
                     if (cameraConfiguration is CameraConfiguration.Video &&
                         cameraConfiguration.enableOplusVideoStabilization) true else null
+                )
+                .setOplusVideoHdrFix(
+                    if (cameraConfiguration is CameraConfiguration.Video &&
+                        cameraConfiguration.videoDynamicRange == VideoDynamicRange.HLG_10_BIT &&
+                        cameraConfiguration.needsOplusVideoHdrFix) true else null
                 )
                 .setEdgeMode(camera2Options.edgeMode)
                 .setNoiseReductionMode(camera2Options.noiseReductionMode)

@@ -1725,6 +1725,7 @@ class CameraViewModel(application: Application) : ApertureViewModel(application)
                 videoMirrorMode = preferencesRepository.videoMirrorMode.value,
                 enableVideoStabilization = preferencesRepository.videoStabilization.value,
                 enableOplusVideoStabilization = overlaysRepository.enableOplusVideoStabilization,
+                needsOplusVideoHdrFix = overlaysRepository.needsOplusVideoHdrFix,
             )
         }
 
