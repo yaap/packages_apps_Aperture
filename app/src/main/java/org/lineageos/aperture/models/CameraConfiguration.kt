@@ -107,6 +107,7 @@ sealed interface CameraConfiguration {
         val enableVideoStabilization: Boolean,
         val enableOplusVideoStabilization: Boolean,
         val needsOplusVideoHdrFix: Boolean,
+        val needsMtk60FpsFix: Boolean,
     ) : CameraConfiguration {
         override val cameraMode = CameraMode.VIDEO
         override val extensionMode = ExtensionMode.NONE

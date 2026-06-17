@@ -36,6 +36,10 @@ val KEY_oplus_VIDEO_COLOR_BT709 = CaptureRequest.Key<Int>(
     "com.oplus.VideoColorBT709", Int::class.java
 )
 
+val KEY_mtk_STREAMING_FEATURE_HFPS_MODE = CaptureRequest.Key<Int>(
+    "com.mediatek.streamingfeature.hfpsMode", Int::class.java
+)
+
 @androidx.camera.camera2.interop.ExperimentalCamera2Interop
 fun <ValueT> CaptureRequestOptions.Builder.setOrClearCaptureRequestOption(
     key: CaptureRequest.Key<ValueT>,
@@ -83,6 +87,13 @@ fun CaptureRequestOptions.Builder.setOplusVideoHdrFix(enable: Boolean?) =
     setOrClearCaptureRequestOption(KEY_oplus_VIDEO_DATASPACE, if (enable == true) 168165376 else null)
         .setOrClearCaptureRequestOption(KEY_oplus_MOVIE_HDR_ENABLE, if (enable == true) 1 else null)
         .setOrClearCaptureRequestOption(KEY_oplus_VIDEO_COLOR_BT709, if (enable == true) 0 else null)
+
+@androidx.camera.camera2.interop.ExperimentalCamera2Interop
+fun CaptureRequestOptions.Builder.setMtk60FpsFix(enable: Boolean?) =
+    setOrClearCaptureRequestOption(
+        KEY_mtk_STREAMING_FEATURE_HFPS_MODE,
+        if (enable == true) 1 else null
+    )
 
 @androidx.camera.camera2.interop.ExperimentalCamera2Interop
 fun CaptureRequestOptions.Builder.setEdgeMode(

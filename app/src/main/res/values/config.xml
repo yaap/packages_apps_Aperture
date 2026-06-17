@@ -94,4 +94,9 @@
          com.oplus.video.dataspace, com.oplus.movie.hdr.enable,
          and com.oplus.VideoColorBT709 for proper HDR (HLG 10 bit) video. -->
     <bool name="needs_oplus_video_hdr_fix">false</bool>
+
+    <!-- Enable MTK 60fps video fix.
+         Set to true on MediaTek devices that need the vendor key
+         com.mediatek.streamingfeature.hfpsMode for proper 60fps video. -->
+    <bool name="needs_mtk_60fps_fix">false</bool>
 </resources>

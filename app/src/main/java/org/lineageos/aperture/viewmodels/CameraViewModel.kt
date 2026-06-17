@@ -1726,6 +1726,7 @@ class CameraViewModel(application: Application) : ApertureViewModel(application)
                 enableVideoStabilization = preferencesRepository.videoStabilization.value,
                 enableOplusVideoStabilization = overlaysRepository.enableOplusVideoStabilization,
                 needsOplusVideoHdrFix = overlaysRepository.needsOplusVideoHdrFix,
+                needsMtk60FpsFix = overlaysRepository.needsMtk60FpsFix,
             )
         }
 

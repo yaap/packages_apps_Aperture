@@ -140,6 +140,11 @@ class OverlaysRepository(private val context: Context) {
      */
     val needsOplusVideoHdrFix = getBoolean(R.bool.needs_oplus_video_hdr_fix)
 
+    /**
+     * @see R.bool.needs_mtk_60fps_fix
+     */
+    val needsMtk60FpsFix = getBoolean(R.bool.needs_mtk_60fps_fix)
+
     private fun getBoolean(id: Int) = rroResources.firstNotNullOfOrNull {
         runCatching {
             it.getBoolean(id)
